@@ -1,0 +1,29 @@
+.navbar {
+    background-color: rgba(84, 115, 196, 0.856);
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    padding-left: 50px;
+    min-height: 8vh;
+  
+    > .logo {
+      font-size: 36px;
+    }
+    > ul {
+      display: flex;
+      list-style-type: none;
+      padding-left: 100px;
+      > li {
+        margin-right: 20px;
+        > a {
+          color: aliceblue;
+          text-decoration: none;
+          &:hover {
+            color: rgb(19, 79, 162);
+            font-size:20px;
+            font-family: cursive;
+          }
+        }
+      }
+    }
+  }
