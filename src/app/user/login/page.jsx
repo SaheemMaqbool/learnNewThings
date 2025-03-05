@@ -23,6 +23,7 @@ const Login = () => {
     localStorage.setItem("authToken" , data.payload)
     localStorage.setItem("userId" , data.userId)
     setMessage(data.message);
+    
   };
 
   return (
